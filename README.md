@@ -6,7 +6,7 @@ El binario XHPL tiene instrucciones SSE4.2, AVX
 El binario xhpl_intel64_static tiene instruacciones del binario XHPL + AVX2,  FMA3
 
 XHPL version  AVX2
-Ejemplos de ejecución, el valor -n  indica el tamaño de la matriz a invertir (ver script meml).
+Ejemplos de ejecución, el valor -n  indica el tamaño de la matriz a invertir (ver script calculo-valor-n-HPL.sh).
 * Utilizar valores de n muy grandes puede provocar el uso intensivo de SWAP y en consecuencia inestabilidad en el sistema
 
 2 hilos indicando el número de core (afinidad) a utilizar por mdeio de varibles del API OPENMP
